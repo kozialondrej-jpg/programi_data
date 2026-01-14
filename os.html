@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programové vybavení a operační systémy</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .os-icon, .ui-icon {
+            height: 80px;
+            margin: 0 15px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .content-card {
+            text-align: center;
+        }
+        
+        .content-card ul {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .os-icon-box {
+            font-size: 80px;
+            margin: 0 15px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -30,9 +55,13 @@
                 Dříve byly programy vytvářeny vždy pro konkrétní počítač, dnes existují systémové programy, které zajišťují běh aplikací.
             </p>
         </div>
+        
 
         <h2>Operační systémy (OS)</h2>
         <div class="content-card">
+            <i class="fab fa-windows os-icon-box" style="color: #0078d4;"></i>
+            <i class="fab fa-apple os-icon-box" style="color: #000000;"></i>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" class="os-icon">
             <p>
                 OS řídí hardware počítače. Jádro systému spravuje procesor, paměť, disky a další zařízení. 
                 Pro správnou funkci jsou potřebné ovladače (drivers). API umožňuje programátorům vytvářet aplikace pro daný OS.
@@ -41,6 +70,7 @@
 
         <h2>Uživatelské rozhraní</h2>
         <div class="content-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/240px-Desktop_computer_clipart_-_Yellow_theme.svg.png" alt="GUI" class="ui-icon">
             <p>
                 Starší systémy používaly příkazový řádek (CLI), moderní OS mají grafické rozhraní (GUI) s okny a ikonami.
             </p>
