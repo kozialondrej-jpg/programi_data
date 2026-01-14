@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programové a datové soubory</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .content-card {
+            text-align: center;
+        }
+        
+        .content-card ul {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .icon-box {
+            font-size: 80px;
+            margin: 0 15px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,6 +43,7 @@
     <main>
         <h2>Soubor</h2>
         <div class="content-card">
+            <i class="fas fa-file icon-box" style="color: #9b59b6;"></i>
             <p>
                 Soubor je množina dat uložených na disku. Každý soubor má jméno a příponu, která určuje typ. Další informace o souboru zahrnují velikost, autora, datum vytvoření a přístupová práva.
             </p>
@@ -32,6 +51,7 @@
 
         <h2>Adresáře a cesty</h2>
         <div class="content-card">
+            <i class="fas fa-folder-open icon-box" style="color: #f39c12;"></i>
             <p>
                 Soubory jsou uspořádány do adresářů (folders), které mohou obsahovat další složky a soubory. Cesta (path) ukazuje umístění souboru od nejvyššího adresáře, např. <code>C:\XAMPP\mysql\bin\mysql.exe</code>.
             </p>
@@ -39,6 +59,7 @@
 
         <h2>Programové soubory</h2>
         <div class="content-card">
+            <i class="fas fa-code icon-box" style="color: #27ae60;"></i>
             <p>
                 Programové soubory obsahují instrukce pro procesor, které umožňují počítači vykonávat konkrétní úkoly. Mohou být ve formě binární, zdrojového kódu nebo skriptů. Větší programy často používají knihovny (DLL, SYS, DRV) pro sdílení funkcí.
             </p>
@@ -46,6 +67,7 @@
 
         <h2>Datové soubory</h2>
         <div class="content-card">
+            <i class="fas fa-database icon-box" style="color: #e74c3c;"></i>
             <p>
                 Datové soubory obsahují informace různých typů – text, čísla, obrázky nebo zvuky. Ke čtení a úpravám datových souborů se používají konkrétní programy, např. DOCX – Word, XLSX – Excel.
             </p>
