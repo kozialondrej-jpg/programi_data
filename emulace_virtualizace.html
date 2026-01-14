@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emulace a virtualizace</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .content-card {
+            text-align: center;
+        }
+        
+        .content-card ul {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .icon-box {
+            font-size: 80px;
+            margin: 0 15px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .vm-icon {
+            height: 100px;
+            margin: 20px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,6 +49,7 @@
     <main>
         <h2>Emulátor</h2>
         <div class="content-card">
+            <i class="fas fa-gamepad icon-box" style="color: #FF6B6B;"></i>
             <p>
                 Emulátor umožňuje spustit programy na jiné platformě nebo operačním systému, než pro který byly původně vytvořeny. 
                 Například běh her z konzol na PC nebo starého MS DOS prostředí přes DOSBox.
@@ -33,6 +58,7 @@
 
         <h2>Virtualizace</h2>
         <div class="content-card">
+            <i class="fas fa-cube icon-box" style="color: #4ECDC4;"></i>
             <p>
                 Virtualizace umožňuje přistupovat k počítačovým zdrojům jinak, než jak fyzicky existují. Lze virtualizovat celý počítač, jeho hardware nebo operační systém.
             </p>
@@ -40,6 +66,7 @@
 
         <h2>Virtuální stroj</h2>
         <div class="content-card">
+            <i class="fas fa-server icon-box" style="color: #95E1D3;"></i>
             <p>
                 Virtuální stroj simuluje skutečný počítač včetně procesoru, paměti a disku. Na něm lze instalovat OS a programy. Příklady: VirtualBox, VMWare.
             </p>
@@ -47,6 +74,7 @@
 
         <h2>Využití</h2>
         <div class="content-card">
+            <i class="fas fa-shield-alt icon-box" style="color: #F38181;"></i>
             <ul>
                 <li>Bezpečný běh aplikací, které by mohly ohrozit hlavní systém</li>
                 <li>Testování nových programů</li>
